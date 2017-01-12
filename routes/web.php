@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/vuex', 'VuexController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
