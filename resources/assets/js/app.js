@@ -13,8 +13,12 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import store from './store';
+
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('sample', require('./components/Sample.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    store
 });

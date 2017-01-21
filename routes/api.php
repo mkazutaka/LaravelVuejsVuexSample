@@ -17,5 +17,5 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
 
-Route::get('/vuex', 'VuexAPIController@index');
+Route::get('/sample', 'SampleAPIController@index');
 
