@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/vuex', 'VuexController@index');
+Route::get('/sample', 'SampleController@index');

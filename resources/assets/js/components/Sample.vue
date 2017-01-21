@@ -11,7 +11,7 @@
     export default{
         mounted: function() {
             console.log(this.responseContents)
-            this.$store.dispatch(SEND_REQUEST, '/api/vuex')
+            this.$store.dispatch(SEND_REQUEST, '/api/sample')
         },
         computed: {
             receiveResponse(){

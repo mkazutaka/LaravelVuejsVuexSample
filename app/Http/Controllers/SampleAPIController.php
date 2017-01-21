@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class VuexAPIController extends Controller
+class SampleAPIController extends Controller
 {
     public function index()
     {

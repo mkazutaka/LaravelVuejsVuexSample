@@ -39,7 +39,6 @@ const mutations = {
     },
     [types.CHANGE_CONTENTS] (state, {target, contents}){
         state[target] = contents;
-        console.log(state[target]);
     }
 };
 
