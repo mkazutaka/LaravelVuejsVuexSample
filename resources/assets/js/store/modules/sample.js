@@ -1,15 +1,11 @@
 import * as types from '../mutation-types'
 import api from '../../api/sample'
 
+const namespaced = true;
+
 const state = {
     receive_response: false,
     response_contents: 'Please wait Response...',
-};
-
-// getters
-const getters = {
-    receiveResponse: state => state.receive_response,
-    responseContents: state => state.response_contents,
 };
 
 // actions
@@ -43,8 +39,8 @@ const mutations = {
 };
 
 export default {
+    namespaced,
     state,
-    getters,
     actions,
     mutations
 }
